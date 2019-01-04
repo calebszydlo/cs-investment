@@ -6,27 +6,29 @@ Text Domain:
 */
 
 // normalize
-@import 'global/normalize';
-@import 'global/breakpoints';
-@import 'global/functions';
-@import 'global/grid';
+@import 'global/_normalize';
+@import 'global/_breakpoints';
+@import 'global/_functions';
+@import 'global/_grid';
 
 // theme settings
-@import 'theme/fonts';
-@import 'theme/colors';
-@import 'theme/style-guide';
+@import 'theme/_fonts';
+@import 'theme/_colors';
+@import 'theme/_style-guide';
 
 // components
-@import 'components/header';
-@import 'components/mobile-navigation';
-@import 'components/footer';
-@import 'components/panel';
-@import 'components/hero';
-@import 'components/button';
-@import 'components/form';
-@import 'components/wordpress';
+@import 'components/_header';
+@import 'components/_mobile-navigation';
+@import 'components/_footer';
+@import 'components/_panel';
+@import 'components/_hero';
+@import 'components/_button';
+@import 'components/_form';
+@import 'components/_wordpress';
 
 // utilities
-@import 'utilities/margin';
-@import 'utilities/padding';
-@import 'utilities/text';
+@import 'utilities/_margin';
+@import 'utilities/_padding';
+@import 'utilities/_text';
+@import 'utilities/_background';
+@import 'utilities/_display';

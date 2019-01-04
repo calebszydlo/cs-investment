@@ -1,0 +1,49 @@
+/* wordpress */
+
+
+.alignright {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+.alignleft {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+@media(max-width: $mobile-width) {
+  .alignright, .alignleft {
+    float: none;
+    margin: 0 0 1em 0;
+    display: block;
+  }
+}
+
+.aligncenter, div.aligncenter {
+  display: block;
+  margin: 0 auto 1em;
+}
+
+.size-full, .attachment-full, .size-large, .attachement-large {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.size-medium, .attachment-medium {
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+.size-small, .attachment-small {
+  width: 33%;
+  height: auto;
+  display: block;
+}
+
+.size-thumbnail, .attachment-thumbnail {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  display: block;
+}

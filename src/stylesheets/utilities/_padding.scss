@@ -1,0 +1,260 @@
+/** 
+ * _padding.scss
+ * Padding helpers
+ *
+ * ~1) Horizontal and Vertical
+ * ~2) Horizontal
+ * ~3) Vertical
+ * ~4) Media queries
+ */
+
+/* ~1) Horizontal and Vertical
+========================================================================== */
+
+.u-padding0 { padding: 0; }
+.u-padding1gu { padding: $grid-unit; }
+.u-padding2gu { padding: calc($grid-unit * 2); }
+.u-padding3gu { padding: calc($grid-unit * 3); }
+.u-padding4gu { padding: calc($grid-unit * 4); }
+.u-padding5gu { padding: calc($grid-unit * 5); }
+.u-padding6gu { padding: calc($grid-unit * 6); }
+.u-padding7gu { padding: calc($grid-unit * 7); }
+.u-padding8gu { padding: calc($grid-unit * 8); }
+.u-padding9gu { padding: calc($grid-unit * 9); }
+.u-padding10gu { padding: calc($grid-unit * 10); }
+.u-padding11gu { padding: calc($grid-unit * 11); }
+.u-padding12gu { padding: calc($grid-unit * 12); }
+.u-padding15gu { padding: calc($grid-unit * 15); }
+.u-padding20gu { padding: calc($grid-unit * 20); }
+
+/* ~2) Horizontal
+========================================================================== */
+
+/* Left */
+
+.u-paddingLeft0 { padding-left: 0; }
+.u-paddingLeft1gu { padding-left: $grid-unit; }
+.u-paddingLeft2gu { padding-left: calc($grid-unit * 2); }
+.u-paddingLeft3gu { padding-left: calc($grid-unit * 3); }
+.u-paddingLeft4gu { padding-left: calc($grid-unit * 4); }
+.u-paddingLeft5gu { padding-left: calc($grid-unit * 5); }
+.u-paddingLeft6gu { padding-left: calc($grid-unit * 6); }
+.u-paddingLeft7gu { padding-left: calc($grid-unit * 7); }
+.u-paddingLeft8gu { padding-left: calc($grid-unit * 8); }
+.u-paddingLeft9gu { padding-left: calc($grid-unit * 9); }
+.u-paddingLeft10gu { padding-left: calc($grid-unit * 10); }
+.u-paddingLeft11gu { padding-left: calc($grid-unit * 11); }
+.u-paddingLeft12gu { padding-left: calc($grid-unit * 12); }
+.u-paddingLeft15gu { padding-left: calc($grid-unit * 15); }
+.u-paddingLeft20gu { padding-left: calc($grid-unit * 20); }
+
+/* Right */
+
+.u-paddingRight0 { padding-right: 0; }
+.u-paddingRight1gu { padding-right: $grid-unit; }
+.u-paddingRight2gu { padding-right: calc($grid-unit * 2); }
+.u-paddingRight3gu { padding-right: calc($grid-unit * 3); }
+.u-paddingRight4gu { padding-right: calc($grid-unit * 4); }
+.u-paddingRight5gu { padding-right: calc($grid-unit * 5); }
+.u-paddingRight6gu { padding-right: calc($grid-unit * 6); }
+.u-paddingRight7gu { padding-right: calc($grid-unit * 7); }
+.u-paddingRight8gu { padding-right: calc($grid-unit * 8); }
+.u-paddingRight9gu { padding-right: calc($grid-unit * 9); }
+.u-paddingRight10gu { padding-right: calc($grid-unit * 10); }
+.u-paddingRight11gu { padding-right: calc($grid-unit * 11); }
+.u-paddingRight12gu { padding-right: calc($grid-unit * 12); }
+.u-paddingRight15gu { padding-right: calc($grid-unit * 15); }
+.u-paddingRight20gu { padding-right: calc($grid-unit * 20); }
+
+/* Right/Left Pairs */
+
+.u-paddingHoriz0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.u-paddingHoriz1gu {
+  padding-left: $grid-unit;
+  padding-right: $grid-unit;
+}
+
+.u-paddingHoriz2gu {
+  padding-left: calc($grid-unit * 2);
+  padding-right: calc($grid-unit * 2);
+}
+
+.u-paddingHoriz3gu {
+  padding-left: calc($grid-unit * 3);
+  padding-right: calc($grid-unit * 3);
+}
+
+.u-paddingHoriz4gu {
+  padding-left: calc($grid-unit * 4);
+  padding-right: calc($grid-unit * 4);
+}
+
+.u-paddingHoriz5gu {
+  padding-left: calc($grid-unit * 5);
+  padding-right: calc($grid-unit * 5);
+}
+
+.u-paddingHoriz6gu {
+  padding-left: calc($grid-unit * 6);
+  padding-right: calc($grid-unit * 6);
+}
+
+.u-paddingHoriz7gu {
+  padding-left: calc($grid-unit * 7);
+  padding-right: calc($grid-unit * 7);
+}
+
+.u-paddingHoriz8gu {
+  padding-left: calc($grid-unit * 8);
+  padding-right: calc($grid-unit * 8);
+}
+
+.u-paddingHoriz9gu {
+  padding-left: calc($grid-unit * 9);
+  padding-right: calc($grid-unit * 9);
+}
+
+.u-paddingHoriz10gu {
+  padding-left: calc($grid-unit * 10);
+  padding-right: calc($grid-unit * 10);
+}
+
+.u-paddingHoriz11gu {
+  padding-left: calc($grid-unit * 11);
+  padding-right: calc($grid-unit * 11);
+}
+
+.u-paddingHoriz12gu {
+  padding-left: calc($grid-unit * 12);
+  padding-right: calc($grid-unit * 12);
+}
+
+.u-paddingHoriz15gu {
+  padding-left: calc($grid-unit * 15);
+  padding-right: calc($grid-unit * 15);
+}
+
+.u-paddingHoriz20gu {
+  padding-left: calc($grid-unit * 20);
+  padding-right: calc($grid-unit * 20);
+}
+
+/* ~3) Vertical
+========================================================================== */
+
+/* Bottom */
+
+.u-paddingBottom0 { padding-bottom: 0; }
+.u-paddingBottom1gu { padding-bottom: $grid-unit; }
+.u-paddingBottom2gu { padding-bottom: calc($grid-unit * 2); }
+.u-paddingBottom3gu { padding-bottom: calc($grid-unit * 3); }
+.u-paddingBottom4gu { padding-bottom: calc($grid-unit * 4); }
+.u-paddingBottom5gu { padding-bottom: calc($grid-unit * 5); }
+.u-paddingBottom6gu { padding-bottom: calc($grid-unit * 6); }
+.u-paddingBottom7gu { padding-bottom: calc($grid-unit * 7); }
+.u-paddingBottom8gu { padding-bottom: calc($grid-unit * 8); }
+.u-paddingBottom9gu { padding-bottom: calc($grid-unit * 9); }
+.u-paddingBottom10gu { padding-bottom: calc($grid-unit * 10); }
+.u-paddingBottom11gu { padding-bottom: calc($grid-unit * 11); }
+.u-paddingBottom12gu { padding-bottom: calc($grid-unit * 12); }
+.u-paddingBottom15gu { padding-bottom: calc($grid-unit * 15); }
+.u-paddingBottom20gu { padding-bottom: calc($grid-unit * 20); }
+
+/* Top */
+
+.u-paddingTop0 { padding-top: 0; }
+.u-paddingTop1gu { padding-top: $grid-unit; }
+.u-paddingTop2gu { padding-top: calc($grid-unit * 2); }
+.u-paddingTop3gu { padding-top: calc($grid-unit * 3); }
+.u-paddingTop4gu { padding-top: calc($grid-unit * 4); }
+.u-paddingTop5gu { padding-top: calc($grid-unit * 5); }
+.u-paddingTop6gu { padding-top: calc($grid-unit * 6); }
+.u-paddingTop7gu { padding-top: calc($grid-unit * 7); }
+.u-paddingTop8gu { padding-top: calc($grid-unit * 8); }
+.u-paddingTop9gu { padding-top: calc($grid-unit * 9); }
+.u-paddingTop10gu { padding-top: calc($grid-unit * 10); }
+.u-paddingTop11gu { padding-top: calc($grid-unit * 11); }
+.u-paddingTop12gu { padding-top: calc($grid-unit * 12); }
+.u-paddingTop15gu { padding-top: calc($grid-unit * 15); }
+.u-paddingTop20gu { padding-top: calc($grid-unit * 20); }
+
+/* Top/Bottom Pairs */
+
+.u-paddingVert0 {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.u-paddingVert1gu {
+  padding-bottom: $grid-unit;
+  padding-top: $grid-unit;
+}
+
+.u-paddingVert2gu {
+  padding-bottom: calc($grid-unit * 2);
+  padding-top: calc($grid-unit * 2);
+}
+
+.u-paddingVert3gu {
+  padding-bottom: calc($grid-unit * 3);
+  padding-top: calc($grid-unit * 3);
+}
+
+.u-paddingVert4gu {
+  padding-bottom: calc($grid-unit * 4);
+  padding-top: calc($grid-unit * 4);
+}
+
+.u-paddingVert5gu {
+  padding-bottom: calc($grid-unit * 5);
+  padding-top: calc($grid-unit * 5);
+}
+
+.u-paddingVert6gu {
+  padding-bottom: calc($grid-unit * 6);
+  padding-top: calc($grid-unit * 6);
+}
+
+.u-paddingVert7gu {
+  padding-bottom: calc($grid-unit * 7);
+  padding-top: calc($grid-unit * 7);
+}
+
+.u-paddingVert8gu {
+  padding-bottom: calc($grid-unit * 8);
+  padding-top: calc($grid-unit * 8);
+}
+
+.u-paddingVert9gu {
+  padding-bottom: calc($grid-unit * 9);
+  padding-top: calc($grid-unit * 9);
+}
+
+.u-paddingVert10gu {
+  padding-bottom: calc($grid-unit * 10);
+  padding-top: calc($grid-unit * 10);
+}
+
+.u-paddingVert11gu {
+  padding-bottom: calc($grid-unit * 11);
+  padding-top: calc($grid-unit * 11);
+}
+
+.u-paddingVert12gu {
+  padding-bottom: calc($grid-unit * 12);
+  padding-top: calc($grid-unit * 12);
+}
+
+.u-paddingVert15gu {
+  padding-bottom: calc($grid-unit * 15);
+  padding-top: calc($grid-unit * 15);
+}
+
+.u-paddingVert20gu {
+  padding-bottom: calc($grid-unit * 20);
+  padding-top: calc($grid-unit * 20);
+}
