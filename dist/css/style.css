@@ -1,1 +1,327 @@
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}.test-grid{line-height:0}.row{clear:both;position:relative}@media (min-width:767px){.row{left:0!important}}.row--truncated{margin:0 auto;width:95%;max-width:1080px}.row--truncated>:first-child{margin-left:0}@media (max-width:767px){.row--truncated{width:90%}}.row--truncated--full{width:100%;max-width:1080px}@media (max-width:767px){.row--truncated--full{width:100%}}.row--truncated--narrow{max-width:900px;width:90%}@media (max-width:767px){.row--truncated--narrow{width:80%}}.ie .grid__row{min-width:1080px}.ie .grid__row--truncated{width:1080px}.row__cell{display:inline;float:left;position:relative;margin-left:3.125%}.first{margin-left:0}.row__cell--right{float:right}.column-inner{padding:0 5%}.row__cell--span1{width:5.46875%}.row__cell--span2{width:14.0625%}.row__cell--span3{width:22.65625%}.row__cell--span4{width:31.25%}.row__cell--span5{width:39.84375%}.row__cell--span6{width:48.4375%}.row__cell--span7{width:57.03125%}.row__cell--span8{width:65.625%}.row__cell--span9{width:74.21875%}.row__cell--span10{width:82.8125%}.row__cell--span11{width:91.40625%}.row__cell--span12{width:100%;margin-left:0}.desktop-only{display:block}.tablet-only{display:none}.mobile-only{display:none}.desktop-hide{display:none}.tablet-hide{display:block}.mobile-hide{display:block}.mobile-hide--inline{display:inline-block}@media (max-width:1028px){.tablet-first{margin-left:0!important}.desktop-only{display:none}.tablet-only{display:block}.desktop-hide{display:block}.tablet-hide{display:none}}@media (max-width:767px){.mobile-first{margin-left:0!important}.tablet-only{display:none}.mobile-only{display:block}.tablet-hide{display:block}.mobile-hide,.mobile-hide--inline{display:none}.row__cell,.row__cell--span3{margin-left:0}.row__cell--span1{width:100%}.row__cell--span2{width:100%}.row__cell--span3{width:100%}.row__cell--span3 .row__cell--span1,.row__cell--span3 .row__cell--span2{width:100%}.row__cell--span4{width:100%}.row__cell--span5{width:100%}.row__cell--span6{width:100%}.row__cell--span7{width:100%}.row__cell--span8{width:100%}.row__cell--span9{width:100%}.row__cell--span10{width:100%}.row__cell--span11{width:100%}}@font-face{font-family:Open-sans;src:url(../../lib/fonts/open-sans/opensans-regular-webfont.woff2) format("woff2"),url(../../lib/fonts/open-sans/opensans-regular-webfont.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:Open-sans;src:url(../../lib/fonts/open-sans/opensans-italic-webfont.woff2) format("woff2"),url(../../lib/fonts/open-sans/opensans-italic-webfont.woff) format("woff");font-weight:400;font-style:italic}@font-face{font-family:Open-sans;src:url(../../lib/fonts/open-sans/opensans-semibold-webfont.woff2) format("woff2"),url(../../lib/fonts/open-sans/opensans-semibold-webfont.woff) format("woff");font-weight:500;font-style:normal}@font-face{font-family:Open-sans;src:url(../../lib/fonts/open-sans/opensans-semibolditalic-webfont.woff2) format("woff2"),url(../../lib/fonts/open-sans/opensans-semibolditalic-webfont.woff) format("woff");font-weight:500;font-style:italic}@font-face{font-family:Open-sans;src:url(../../lib/fonts/open-sans/opensans-extrabold-webfont.woff2) format("woff2"),url(../../lib/fonts/open-sans/opensans-extrabold-webfont.woff) format("woff");font-weight:700;font-style:normal}@font-face{font-family:Open-sans;src:url(../../lib/fonts/open-sans/opensans-extrabolditalic-webfont.woff2) format("woff2"),url(../../lib/fonts/open-sans/opensans-extrabolditalic-webfont.woff) format("woff");font-weight:700;font-style:italic}html{height:100%;min-height:100%}body{height:100%;font-size:18px;line-height:1;font-family:"Open Sans",Arial,sans-serif;letter-spacing:.05em}blockquote,dl,ol,p,ul{line-height:1.4em}p{font-size:1em;margin:0 0 1.5em}b,strong{font-weight:700}em,i{font-style:italic}.inline-list li{display:inline;margin:0 10px}img{width:100%;height:auto}.block:after,.clearfix:after,.row:after{visibility:hidden;display:block;content:'';clear:both;height:0}.alignright{float:right;margin:0 0 1em 1em}.alignleft{float:left;margin:0 1em 1em 0}@media (max-width:767px){.alignleft,.alignright{float:none;margin:0 0 1em 0;display:block}}.aligncenter,div.aligncenter{display:block;margin:0 auto 1em}.attachement-large,.attachment-full,.size-full,.size-large{width:100%;height:auto;display:block}.attachment-medium,.size-medium{width:50%;height:auto;display:block}.attachment-small,.size-small{width:33%;height:auto;display:block}.attachment-thumbnail,.size-thumbnail{width:100%;max-width:150px;height:auto;display:block}
+/*
+Theme Name: LUDA
+Author: Caleb Szydlo
+Author URI: calebszydlo.com
+Text Domain:
+*/
+/* reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* grid.scss */
+.test-grid {
+  line-height: 0; }
+
+.row {
+  clear: both;
+  position: relative; }
+  @media (min-width: 767px) {
+    .row {
+      left: 0 !important; } }
+
+.row--truncated {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1080px; }
+  .row--truncated > *:first-child {
+    margin-left: 0; }
+  @media (max-width: 767px) {
+    .row--truncated {
+      width: 90%; } }
+
+.row--truncated--full {
+  width: 100%;
+  max-width: 1080px; }
+  @media (max-width: 767px) {
+    .row--truncated--full {
+      width: 100%; } }
+
+.row--truncated--narrow {
+  max-width: 900px;
+  width: 90%; }
+  @media (max-width: 767px) {
+    .row--truncated--narrow {
+      width: 80%; } }
+
+.ie .grid__row {
+  min-width: 1080px; }
+
+.ie .grid__row--truncated {
+  width: 1080px; }
+
+.row__cell {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 3.125%; }
+
+.first {
+  margin-left: 0; }
+
+.row__cell--right {
+  float: right; }
+
+.column-inner {
+  padding: 0 5%; }
+
+.row__cell--span1 {
+  width: 5.46875%; }
+
+.row__cell--span2 {
+  width: 14.0625%; }
+
+.row__cell--span3 {
+  width: 22.65625%; }
+
+.row__cell--span4 {
+  width: 31.25%; }
+
+.row__cell--span5 {
+  width: 39.84375%; }
+
+.row__cell--span6 {
+  width: 48.4375%; }
+
+.row__cell--span7 {
+  width: 57.03125%; }
+
+.row__cell--span8 {
+  width: 65.625%; }
+
+.row__cell--span9 {
+  width: 74.21875%; }
+
+.row__cell--span10 {
+  width: 82.8125%; }
+
+.row__cell--span11 {
+  width: 91.40625%; }
+
+.row__cell--span12 {
+  width: 100%;
+  margin-left: 0; }
+
+.desktop-only {
+  display: block; }
+
+.tablet-only {
+  display: none; }
+
+.mobile-only {
+  display: none; }
+
+.desktop-hide {
+  display: none; }
+
+.tablet-hide {
+  display: block; }
+
+.mobile-hide {
+  display: block; }
+  .mobile-hide--inline {
+    display: inline-block; }
+
+@media (max-width: 1028px) {
+  .tablet-first {
+    margin-left: 0 !important; }
+  .desktop-only {
+    display: none; }
+  .tablet-only {
+    display: block; }
+  .desktop-hide {
+    display: block; }
+  .tablet-hide {
+    display: none; } }
+
+@media (max-width: 767px) {
+  .mobile-first {
+    margin-left: 0 !important; }
+  .tablet-only {
+    display: none; }
+  .mobile-only {
+    display: block; }
+  .tablet-hide {
+    display: block; }
+  .mobile-hide, .mobile-hide--inline {
+    display: none; }
+  .row__cell, .row__cell--span3 {
+    margin-left: 0; }
+  .row__cell--span1 {
+    width: 100%; }
+  .row__cell--span2 {
+    width: 100%; }
+  .row__cell--span3 {
+    width: 100%; }
+  .row__cell--span3 .row__cell--span1, .row__cell--span3 .row__cell--span2 {
+    width: 100%; }
+  .row__cell--span4 {
+    width: 100%; }
+  .row__cell--span5 {
+    width: 100%; }
+  .row__cell--span6 {
+    width: 100%; }
+  .row__cell--span7 {
+    width: 100%; }
+  .row__cell--span8 {
+    width: 100%; }
+  .row__cell--span9 {
+    width: 100%; }
+  .row__cell--span10 {
+    width: 100%; }
+  .row__cell--span11 {
+    width: 100%; } }
+
+/* fonts.scss */
+@font-face {
+  font-family: 'Open-sans';
+  src: url("../../lib/fonts/open-sans/opensans-regular-webfont.woff2") format("woff2"), url("../../lib/fonts/open-sans/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open-sans';
+  src: url("../../lib/fonts/open-sans/opensans-italic-webfont.woff2") format("woff2"), url("../../lib/fonts/open-sans/opensans-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Open-sans';
+  src: url("../../lib/fonts/open-sans/opensans-semibold-webfont.woff2") format("woff2"), url("../../lib/fonts/open-sans/opensans-semibold-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open-sans';
+  src: url("../../lib/fonts/open-sans/opensans-semibolditalic-webfont.woff2") format("woff2"), url("../../lib/fonts/open-sans/opensans-semibolditalic-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Open-sans';
+  src: url("../../lib/fonts/open-sans/opensans-extrabold-webfont.woff2") format("woff2"), url("../../lib/fonts/open-sans/opensans-extrabold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open-sans';
+  src: url("../../lib/fonts/open-sans/opensans-extrabolditalic-webfont.woff2") format("woff2"), url("../../lib/fonts/open-sans/opensans-extrabolditalic-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: italic; }
+
+/* button.scss */
+/* global.scss */
+html {
+  height: 100%;
+  min-height: 100%; }
+
+body {
+  height: 100%;
+  font-size: 18px;
+  line-height: 1;
+  font-family: "Open Sans", Arial, sans-serif;
+  letter-spacing: .05em; }
+
+p, ol, ul, blockquote, dl {
+  line-height: 1.4em; }
+
+p {
+  font-size: 1em;
+  margin: 0 0 1.5em; }
+
+strong, b {
+  font-weight: bold; }
+
+em, i {
+  font-style: italic; }
+
+.inline-list li {
+  display: inline;
+  margin: 0 10px; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.clearfix:after, .row:after, .block:after {
+  visibility: hidden;
+  display: block;
+  content: '';
+  clear: both;
+  height: 0; }
+
+/* header.scss */
+/* mobile-navigation.scss */
+/* footer.scss */
+/* panels.scss */
+/* hero.scss */
+/* button.scss */
+/* forms.scss */
+/* wordpress */
+.alignright {
+  float: right;
+  margin: 0 0 1em 1em; }
+
+.alignleft {
+  float: left;
+  margin: 0 1em 1em 0; }
+
+@media (max-width: 767px) {
+  .alignright, .alignleft {
+    float: none;
+    margin: 0 0 1em 0;
+    display: block; } }
+
+.aligncenter, div.aligncenter {
+  display: block;
+  margin: 0 auto 1em; }
+
+.size-full, .attachment-full, .size-large, .attachement-large {
+  width: 100%;
+  height: auto;
+  display: block; }
+
+.size-medium, .attachment-medium {
+  width: 50%;
+  height: auto;
+  display: block; }
+
+.size-small, .attachment-small {
+  width: 33%;
+  height: auto;
+  display: block; }
+
+.size-thumbnail, .attachment-thumbnail {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  display: block; }
+
+/* margin.scss */
+/* padding.scss */
+/* text.scss */

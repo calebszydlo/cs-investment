@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^4.0.0"
+    "bourbon": "^5.1.0",
+    "bourbon-neat": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
