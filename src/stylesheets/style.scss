@@ -1,5 +1,5 @@
 /*
-Theme Name: LUDA
+Theme Name: Component Library
 Author: Caleb Szydlo
 Author URI: calebszydlo.com
 Text Domain:
@@ -8,8 +8,11 @@ Text Domain:
 // normalize
 @import 'global/_normalize';
 @import 'global/_breakpoints';
-@import 'global/_functions';
-@import 'global/_grid';
+// @import 'global/_functions';
+// @import 'global/_grid';
+
+@import 'bourbon';
+@import 'neat';
 
 // theme settings
 @import 'theme/_fonts';

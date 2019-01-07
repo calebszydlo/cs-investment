@@ -64,7 +64,7 @@
 .u-textFauxSmCaps {
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-  font-size: $font-base-minus-1;
+  font-size: calc($font-base - $font-scale-factor);
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }

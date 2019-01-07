@@ -1,26 +1,30 @@
 {
   "name": "component-library",
   "version": "1.0.0",
-  "description": "",
+  "description": "ui component library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebszydlo/cs-investment.git"
+  },
+  "author": "Caleb Szydlo Designs",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calebszydlo/cs-investment/issues"
+  },
+  "homepage": "https://github.com/calebszydlo/cs-investment#readme",
   "dependencies": {
     "bourbon": "^5.1.0",
     "bourbon-neat": "^3.0.0",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
-    "@babel/register": "^7.0.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^6.0.0",
     "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
     "gulp-if": "^2.0.2",
-    "gulp-sass": "^4.0.2",
-    "yargs": "^12.0.5"
+    "gulp-sass": "^4.0.2"
   }
 }
